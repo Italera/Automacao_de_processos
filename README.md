@@ -205,5 +205,7 @@ corpo_email += '''
 mail.HTMLBody = corpo_email
 mail.Send()
 print('E-mail da Diretoria enviado')
+
+
 Conclusão
 Este projeto automatiza o processo de coleta, cálculo e envio de indicadores de desempenho, economizando tempo e reduzindo a possibilidade de erros humanos. Com a implementação deste script, espera-se que os gerentes das lojas e a diretoria possam tomar decisões mais informadas e rápidas baseadas em dados precisos e atualizados.
