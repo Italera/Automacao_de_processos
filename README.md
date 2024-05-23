@@ -199,7 +199,7 @@ for i, loja in enumerate(faturamento_lojas_ano.index):
 corpo_email += '''
 <p>Qualquer dúvida estou à disposição.</p>
 
-<p>Att., Lira</p>
+<p>Att., Italo</p>
 '''
 
 mail.HTMLBody = corpo_email
