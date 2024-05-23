@@ -1,6 +1,29 @@
 # Automacao_de_processos
 
- Projeto de Automação de Processos - Indicadores de Lojas
+Etapas do Projeto
+1 Importação de Arquivos e Bibliotecas
+- Importação das bibliotecas necessárias.
+- Carregamento das bases de dados das vendas, lojas e e-mails.
+
+2 Criação de Tabelas por Loja e Definição do Dia do Indicador
+- Combinação dos dados das vendas com os nomes das lojas.
+- Criação de um dicionário contendo as vendas separadas por loja.
+- Definição do último dia de venda como o dia do indicador.
+
+3 Salvamento das Planilhas na Pasta de Backup
+- Verificação e criação da pasta de backup.
+- Salvamento das planilhas de vendas de cada loja na respectiva pasta de backup.
+
+4 Cálculo de Indicadores para Cada Loja
+- Definição de metas diárias e anuais para faturamento, quantidade de produtos vendidos e ticket médio.
+- Cálculo desses indicadores para cada loja.
+- Preparação e envio do e-mail com os resultados para os gerentes de loja.
+
+5 Envio de E-mail para Diretoria com Ranking
+- Cálculo do ranking das lojas em termos de faturamento diário e anual.
+- Preparação e envio do e-mail com os rankings para a diretoria.
+
+# Projeto de Automação de Processos - Indicadores de Lojas
 Descrição do Projeto
 Este projeto tem como objetivo automatizar o processo de cálculo e envio de indicadores de desempenho para gerentes de lojas e diretoria de uma rede de lojas de varejo. As principais etapas incluem a importação de dados, criação de tabelas de vendas por loja, cálculo de indicadores, salvamento de arquivos de backup, envio de e-mails com resultados e criação de rankings.
 
